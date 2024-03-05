@@ -74,7 +74,7 @@ class BinarySearchTree{
                 if(node.left) queue.push(node.left)
                 if(node.right) queue.push(node.right)
             }
-        console.log('data',data)
+        console.log('BFS',data)
         return data
         }
 
@@ -121,10 +121,15 @@ class BinarySearchTree{
 }
 
 var tree = new BinarySearchTree()
-tree.insert('C')
-tree.insert('B')
-tree.insert('A')
-tree.insert('D')
+tree.insert('6')
+tree.insert('5')
+tree.insert('4')
+tree.insert('3')
+tree.insert('2')
+tree.insert('8')
+tree.insert('9')
+tree.insert('1')
+
 console.log(tree)
 tree.find(11)
 tree.BFS()
