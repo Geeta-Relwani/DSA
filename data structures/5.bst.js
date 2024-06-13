@@ -1,3 +1,10 @@
+//binary search tree 
+// - left node is always less than parent
+// - right node is always greater than parent
+// - maximum 2 children each node
+// - node without any child is leaf node
+
+
 class Node{
     constructor(value){
         this.value = value
