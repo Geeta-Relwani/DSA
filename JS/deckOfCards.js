@@ -37,7 +37,9 @@ const myDeck = {
           }
 
     },
-    drawCard(){}
+    drawCard(){
+        return this.deck.pop()
+    }
     
 
 }
